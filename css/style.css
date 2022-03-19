@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 	
+
 /*===========================
   BARRA DE MENU
 ============================ */
@@ -60,14 +61,14 @@ top: 20%;
 }
 
 .nav-tabs > li > a:hover {
-	color:#bb9107;
-	background:rgb(159, 216, 253);	
+	color:rgb(251,158,0);
+	background:rgb(26,139, 189);	
 } 
 
 .nav-tabs > li a.active {
 	color: rgb(0, 0, 0);
 	cursor: default;
-	background-color: rgb(159, 216, 253);
+	background-color: rgb(26,139, 189);
 	border: 1px solid #fff;
 	border-bottom-color:#fff;
 }
@@ -373,7 +374,7 @@ top: 20%;
   margin-top: 70px;
 	font-weight:550;
 	font-size:30px;
-  color: #dd4a4a;
+  color: rgb(251,158,0);
   font-family: 'Oswald';
 }
 .about .text-center p {
@@ -826,7 +827,7 @@ ul.social_icons li  a i{
 
 .gallery2 .text-center h3{
   
-  color: #dd4a4a;
+  color: rgb(251,158,0);
   font-weight: 550;
   font-size: 30px;
   margin-top: 50px;
@@ -1008,6 +1009,7 @@ figure.effect-marley:hover p {
 
 /* --- Map --- */
 .map{
+  
 	overflow: hidden;
 	margin-top: 0px;
 	margin-bottom:0px;
@@ -1022,6 +1024,10 @@ figure.effect-marley:hover p {
   padding: 0;
   margin: 0;
   float: left;
+}
+
+.map .item1{
+  width: 100%;
 }
 
 .map .item img{
